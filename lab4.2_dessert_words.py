@@ -23,18 +23,30 @@ print(secret_word_length)
 print("Guess the dessert!")
 user_guess = input("Guess a letter! > ")
 
+def handle_guess(user_guess, letters_guessed, secret_word):
+    """handling user letter guess."""
+    ##pseudocode:
+    ##input letter guess.
+    ##test in while loop
+    ##letter is tested against secret word
+    ##if letters do not appear in secret word, place letter in dictionary and reply to user that it is incorrect
+    ##if letter appears in secret word , reply correct and print out letter (letter should still be palce in dictionary as a guess)
+    ##complete when all the leters have been guess in the corect order
 
-def guess_word(word):
+
+##inital fuction written to handle the secret word
+#def guess_word(word):
   #while True:
-  for letter in secret_word:
-    if user_guess == secret_word[letter]:
-      print("That's correct!")
-      print(secret_word[letter])
-    else:
-      print("Try again")
+  #letters_guess = {}
+  #for letter in secret_word:
+    #if user_guess == secret_word[letter]:
+      #print("That's correct!")
+      #print(secret_word[letter])
+    #else:
+      #print("Try again")
+      #print("Letters Guessed: {}".format(letters_guessed)
   #elif user_guess = secret
 
-guess_word(secret_word)
+#guess_word(secret_word)
 
-#testing testing
   
